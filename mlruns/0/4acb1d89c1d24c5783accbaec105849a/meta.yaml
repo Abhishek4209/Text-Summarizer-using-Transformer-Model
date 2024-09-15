@@ -1,0 +1,15 @@
+artifact_uri: file:///e:/TextSummarizer/mlruns/0/4acb1d89c1d24c5783accbaec105849a/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4acb1d89c1d24c5783accbaec105849a
+run_name: ./results
+run_uuid: 4acb1d89c1d24c5783accbaec105849a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726307716569
+status: 1
+tags: []
+user_id: Abhi

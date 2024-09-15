@@ -1,0 +1,109 @@
+2024-09-14 15:32:50,249 INFO    StreamThr :12384 [internal.py:wandb_internal():86] W&B internal server running at pid: 12384, started at: 2024-09-14 15:32:50.243036
+2024-09-14 15:32:50,256 DEBUG   HandlerThread:12384 [handler.py:handle_request():146] handle_request: status
+2024-09-14 15:32:50,359 INFO    WriterThread:12384 [datastore.py:open_for_write():87] open: e:\TextSummarizer\wandb\run-20240914_153250-sa7giwqn\run-sa7giwqn.wandb
+2024-09-14 15:32:50,363 DEBUG   SenderThread:12384 [sender.py:send():379] send: header
+2024-09-14 15:32:50,363 DEBUG   SenderThread:12384 [sender.py:send():379] send: run
+2024-09-14 15:32:51,587 INFO    SenderThread:12384 [dir_watcher.py:__init__():211] watching files in: e:\TextSummarizer\wandb\run-20240914_153250-sa7giwqn\files
+2024-09-14 15:32:51,590 INFO    SenderThread:12384 [sender.py:_start_run_threads():1124] run started: sa7giwqn with start time 1726308170.240032
+2024-09-14 15:32:51,649 DEBUG   HandlerThread:12384 [handler.py:handle_request():146] handle_request: check_version
+2024-09-14 15:32:51,650 DEBUG   SenderThread:12384 [sender.py:send_request():406] send_request: check_version
+2024-09-14 15:32:52,912 DEBUG   HandlerThread:12384 [handler.py:handle_request():146] handle_request: run_start
+2024-09-14 15:32:53,930 DEBUG   HandlerThread:12384 [system_info.py:__init__():26] System info init
+2024-09-14 15:32:53,930 DEBUG   HandlerThread:12384 [system_info.py:__init__():41] System info init done
+2024-09-14 15:32:53,930 INFO    HandlerThread:12384 [system_monitor.py:start():194] Starting system monitor
+2024-09-14 15:32:53,931 INFO    SystemMonitor:12384 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-09-14 15:32:53,931 INFO    HandlerThread:12384 [system_monitor.py:probe():214] Collecting system info
+2024-09-14 15:32:53,939 INFO    SystemMonitor:12384 [interfaces.py:start():190] Started cpu monitoring
+2024-09-14 15:32:53,940 INFO    SystemMonitor:12384 [interfaces.py:start():190] Started disk monitoring
+2024-09-14 15:32:53,941 INFO    SystemMonitor:12384 [interfaces.py:start():190] Started gpu monitoring
+2024-09-14 15:32:53,965 INFO    SystemMonitor:12384 [interfaces.py:start():190] Started memory monitoring
+2024-09-14 15:32:53,978 INFO    SystemMonitor:12384 [interfaces.py:start():190] Started network monitoring
+2024-09-14 15:32:53,993 DEBUG   HandlerThread:12384 [system_info.py:probe():150] Probing system
+2024-09-14 15:32:53,994 DEBUG   HandlerThread:12384 [gitlib.py:_init_repo():56] git repository is invalid
+2024-09-14 15:32:53,994 DEBUG   HandlerThread:12384 [system_info.py:probe():198] Probing system done
+2024-09-14 15:32:53,994 DEBUG   HandlerThread:12384 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22631-SP0', 'python': '3.11.7', 'heartbeatAt': '2024-09-14T10:02:53.993029', 'startedAt': '2024-09-14T10:02:50.127034', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'host': 'MSI', 'username': 'Abhi', 'executable': 'c:\\Users\\Abhi\\anaconda3\\python.exe', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2496.0, 'min': 0.0, 'max': 2496.0}, 'cpu_freq_per_core': [{'current': 2496.0, 'min': 0.0, 'max': 2496.0}], 'disk': {'/': {'total': 390.62401962280273, 'used': 114.44644165039062}}, 'gpu': 'GeForce GTX 1650 with Max-Q Design', 'gpu_count': 1, 'gpu_devices': [{'name': 'GeForce GTX 1650 with Max-Q Design', 'memory_total': 4294967296}], 'memory': {'total': 7.8259735107421875}}
+2024-09-14 15:32:53,994 INFO    HandlerThread:12384 [system_monitor.py:probe():224] Finished collecting system info
+2024-09-14 15:32:53,994 INFO    HandlerThread:12384 [system_monitor.py:probe():227] Publishing system info
+2024-09-14 15:32:53,994 DEBUG   HandlerThread:12384 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-09-14 15:32:53,997 ERROR   gpu       :12384 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-09-14 15:32:54,622 INFO    Thread-16 :12384 [dir_watcher.py:_on_file_created():271] file/dir created: e:\TextSummarizer\wandb\run-20240914_153250-sa7giwqn\files\conda-environment.yaml
+2024-09-14 15:32:56,573 ERROR   gpu       :12384 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-09-14 15:32:59,142 ERROR   gpu       :12384 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-09-14 15:33:01,707 ERROR   gpu       :12384 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-09-14 15:33:04,323 ERROR   gpu       :12384 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-09-14 15:33:06,903 ERROR   gpu       :12384 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-09-14 15:33:08,420 DEBUG   HandlerThread:12384 [system_info.py:_save_conda():222] Saving conda packages done
+2024-09-14 15:33:08,422 INFO    HandlerThread:12384 [system_monitor.py:probe():229] Finished publishing system info
+2024-09-14 15:33:08,455 DEBUG   HandlerThread:12384 [handler.py:handle_request():146] handle_request: status_report
+2024-09-14 15:33:08,455 DEBUG   HandlerThread:12384 [handler.py:handle_request():146] handle_request: keepalive
+2024-09-14 15:33:08,455 DEBUG   HandlerThread:12384 [handler.py:handle_request():146] handle_request: status_report
+2024-09-14 15:33:08,455 DEBUG   HandlerThread:12384 [handler.py:handle_request():146] handle_request: keepalive
+2024-09-14 15:33:08,455 DEBUG   HandlerThread:12384 [handler.py:handle_request():146] handle_request: status_report
+2024-09-14 15:33:08,456 DEBUG   HandlerThread:12384 [handler.py:handle_request():146] handle_request: keepalive
+2024-09-14 15:33:08,456 DEBUG   SenderThread:12384 [sender.py:send():379] send: files
+2024-09-14 15:33:08,456 INFO    SenderThread:12384 [sender.py:_save_file():1390] saving file wandb-metadata.json with policy now
+2024-09-14 15:33:08,703 INFO    Thread-16 :12384 [dir_watcher.py:_on_file_modified():288] file/dir modified: e:\TextSummarizer\wandb\run-20240914_153250-sa7giwqn\files\conda-environment.yaml
+2024-09-14 15:33:08,703 INFO    Thread-16 :12384 [dir_watcher.py:_on_file_created():271] file/dir created: e:\TextSummarizer\wandb\run-20240914_153250-sa7giwqn\files\wandb-metadata.json
+2024-09-14 15:33:09,473 ERROR   gpu       :12384 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-09-14 15:33:09,914 DEBUG   HandlerThread:12384 [handler.py:handle_request():146] handle_request: python_packages
+2024-09-14 15:33:09,915 DEBUG   HandlerThread:12384 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-14 15:33:09,916 DEBUG   SenderThread:12384 [sender.py:send_request():406] send_request: python_packages
+2024-09-14 15:33:09,919 DEBUG   SenderThread:12384 [sender.py:send_request():406] send_request: stop_status
+2024-09-14 15:33:09,921 DEBUG   HandlerThread:12384 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-14 15:33:10,355 DEBUG   SenderThread:12384 [sender.py:send():379] send: telemetry
+2024-09-14 15:33:10,356 DEBUG   SenderThread:12384 [sender.py:send():379] send: config
+2024-09-14 15:33:10,358 DEBUG   SenderThread:12384 [sender.py:send():379] send: metric
+2024-09-14 15:33:10,359 DEBUG   SenderThread:12384 [sender.py:send():379] send: telemetry
+2024-09-14 15:33:10,359 DEBUG   SenderThread:12384 [sender.py:send():379] send: metric
+2024-09-14 15:33:10,359 WARNING SenderThread:12384 [sender.py:send_metric():1341] Seen metric with glob (shouldn't happen)
+2024-09-14 15:33:10,359 DEBUG   SenderThread:12384 [sender.py:send():379] send: telemetry
+2024-09-14 15:33:10,388 INFO    wandb-upload_0:12384 [upload_job.py:push():131] Uploaded file C:\Users\Abhi\AppData\Local\Temp\tmpo8l83xhiwandb\yw8s4l9r-wandb-metadata.json
+2024-09-14 15:33:10,719 INFO    Thread-16 :12384 [dir_watcher.py:_on_file_created():271] file/dir created: e:\TextSummarizer\wandb\run-20240914_153250-sa7giwqn\files\requirements.txt
+2024-09-14 15:33:11,366 DEBUG   HandlerThread:12384 [handler.py:handle_request():146] handle_request: status_report
+2024-09-14 15:33:12,700 ERROR   gpu       :12384 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-09-14 15:33:15,391 ERROR   gpu       :12384 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-09-14 15:33:16,434 DEBUG   HandlerThread:12384 [handler.py:handle_request():146] handle_request: status_report
+2024-09-14 15:33:18,085 ERROR   gpu       :12384 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-09-14 15:33:21,589 DEBUG   HandlerThread:12384 [handler.py:handle_request():146] handle_request: status_report
+2024-09-14 15:33:23,104 INFO    Thread-16 :12384 [dir_watcher.py:_on_file_modified():288] file/dir modified: e:\TextSummarizer\wandb\run-20240914_153250-sa7giwqn\files\config.yaml
+2024-09-14 15:33:25,010 DEBUG   HandlerThread:12384 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-14 15:33:25,016 DEBUG   HandlerThread:12384 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-14 15:33:25,018 DEBUG   SenderThread:12384 [sender.py:send_request():406] send_request: stop_status
+2024-09-14 15:33:27,706 DEBUG   HandlerThread:12384 [handler.py:handle_request():146] handle_request: status_report
+2024-09-14 15:33:32,780 DEBUG   HandlerThread:12384 [handler.py:handle_request():146] handle_request: status_report
+2024-09-14 15:33:39,400 DEBUG   HandlerThread:12384 [handler.py:handle_request():146] handle_request: status_report
+2024-09-14 15:33:40,015 DEBUG   HandlerThread:12384 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-14 15:33:40,018 DEBUG   SenderThread:12384 [sender.py:send_request():406] send_request: stop_status
+2024-09-14 15:33:40,059 DEBUG   HandlerThread:12384 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-14 15:33:44,373 DEBUG   HandlerThread:12384 [handler.py:handle_request():146] handle_request: status_report
+2024-09-14 15:33:49,474 DEBUG   HandlerThread:12384 [handler.py:handle_request():146] handle_request: status_report
+2024-09-14 15:33:54,438 DEBUG   SystemMonitor:12384 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-09-14 15:33:54,988 DEBUG   HandlerThread:12384 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-14 15:33:55,589 DEBUG   HandlerThread:12384 [handler.py:handle_request():146] handle_request: status_report
+2024-09-14 15:33:55,614 DEBUG   SenderThread:12384 [sender.py:send_request():406] send_request: stop_status
+2024-09-14 15:33:55,616 DEBUG   HandlerThread:12384 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-14 15:33:56,061 DEBUG   SenderThread:12384 [sender.py:send():379] send: stats
+2024-09-14 15:34:00,133 DEBUG   HandlerThread:12384 [handler.py:handle_request():146] handle_request: status_report
+2024-09-14 15:34:05,655 DEBUG   HandlerThread:12384 [handler.py:handle_request():146] handle_request: status_report
+2024-09-14 15:34:10,005 DEBUG   HandlerThread:12384 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-14 15:34:10,015 DEBUG   SenderThread:12384 [sender.py:send_request():406] send_request: stop_status
+2024-09-14 15:34:10,066 DEBUG   HandlerThread:12384 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-14 15:34:11,680 DEBUG   HandlerThread:12384 [handler.py:handle_request():146] handle_request: status_report
+2024-09-14 15:34:16,745 DEBUG   HandlerThread:12384 [handler.py:handle_request():146] handle_request: status_report
+2024-09-14 15:34:21,772 DEBUG   HandlerThread:12384 [handler.py:handle_request():146] handle_request: status_report
+2024-09-14 15:34:24,955 DEBUG   HandlerThread:12384 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-14 15:34:24,959 DEBUG   SenderThread:12384 [sender.py:send_request():406] send_request: stop_status
+2024-09-14 15:34:25,038 DEBUG   HandlerThread:12384 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-14 15:34:25,687 DEBUG   SenderThread:12384 [sender.py:send():379] send: stats
+2024-09-14 15:34:27,741 DEBUG   HandlerThread:12384 [handler.py:handle_request():146] handle_request: status_report
+2024-09-14 15:34:32,829 DEBUG   HandlerThread:12384 [handler.py:handle_request():146] handle_request: status_report
+2024-09-14 15:34:37,873 DEBUG   HandlerThread:12384 [handler.py:handle_request():146] handle_request: status_report
+2024-09-14 15:34:39,966 DEBUG   HandlerThread:12384 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-14 15:34:39,970 DEBUG   SenderThread:12384 [sender.py:send_request():406] send_request: stop_status
+2024-09-14 15:34:40,052 DEBUG   HandlerThread:12384 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-14 15:34:43,327 DEBUG   HandlerThread:12384 [handler.py:handle_request():146] handle_request: status_report
+2024-09-14 15:34:48,391 DEBUG   HandlerThread:12384 [handler.py:handle_request():146] handle_request: status_report
+2024-09-14 15:34:54,289 DEBUG   HandlerThread:12384 [handler.py:handle_request():146] handle_request: status_report
+2024-09-14 15:35:05,580 DEBUG   HandlerThread:12384 [handler.py:handle_request():146] handle_request: status_report
+2024-09-14 15:35:05,944 DEBUG   HandlerThread:12384 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-14 15:35:06,034 DEBUG   HandlerThread:12384 [handler.py:handle_request():146] handle_request: stop_status
